@@ -10,4 +10,6 @@ Technologies used:- HTML, CSS, SASS and JavaScript.
 <br>
 <b>Project Screenshorts<b/>:- <br>
   <li>Home Page</li><br>
- ![Home Page](https://user-images.githubusercontent.com/72254047/217005784-0fb5a656-b328-44e1-ad06-1777d62758ed.png)
+ Functionality:-<br>
+ <li>Search movies on searchbar</li> <br>
+![Home Page](https://user-images.githubusercontent.com/72254047/217007445-950861ca-4ab0-4460-b140-80482286228e.png)
