@@ -1,7 +1,7 @@
 // this is the api , base url and image url
-// const APIKEY = 'api_key=96c05c6f53c2f9b20b3e42af4887dc76';
-// const BASEURL = 'https://api.themoviedb.org/3';
-// const IMAGEURL = 'https://image.tmdb.org/t/p/w500';
+const APIKEY = 'api_key=862cadca8a1fa8797cdb1a91c519beb7';
+const BASEURL = 'https://api.themoviedb.org/3';
+const IMAGEURL = 'https://image.tmdb.org/t/p/w500';
 
 // getting the fav movies stored in the local storage 
 var storageData = localStorage.getItem('MovieArray');
