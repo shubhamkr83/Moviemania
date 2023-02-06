@@ -10,7 +10,7 @@ Technologies used:- HTML, CSS, SASS and JavaScript.
 
 <h3>Project Screenshorts:-</h3> 
 
-<b>Home Page</b><br>
+<h4>Home Page</h4>
 
 Functionality :-<br>
 
@@ -21,8 +21,9 @@ Functionality :-<br>
 </ul> 
 
 ![Home Page](https://user-images.githubusercontent.com/72254047/217007445-950861ca-4ab0-4460-b140-80482286228e.png)
+<hr>
 
-<b>Favorite Page</b><br>
+<h4>Favorite Page</h4>
 
 Functionality :-<br>
 
@@ -33,3 +34,16 @@ Functionality :-<br>
 </ul> 
 
 ![Favorite Page](https://user-images.githubusercontent.com/72254047/217012838-b69fe079-0b71-4608-82f2-35dcda6879ee.png)
+<hr>
+
+<h4>Single Movie Page</h4>
+
+Functionality :-<br>
+
+<ul>
+  <li>Navigate back to home page from back icon on navbar.</li>
+  <li>Watch movie trailer by clicking on video icon.</li>
+</ul> 
+
+![Single Page](https://user-images.githubusercontent.com/72254047/217014284-46e5a30e-c291-40df-9ec8-abed1473e7d9.png)
+
