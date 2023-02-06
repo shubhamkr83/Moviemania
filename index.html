@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB</title>
+    <script src="https://kit.fontawesome.com/6f38b70ccc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./sass/style.css">
+</head>
+
+<body>
+    <section>
+        <div id="header">
+
+            <div id="logo">
+                <a href="index.html">
+                    <p>Moviemania</p>
+                </a>
+            </div>
+
+            <div id="search_container">
+                <div class="search-content">
+                    <div id="search-area">
+                        <input type="text" name="searchMovie" id="searchMovie" placeholder="search your movie..."
+                            autocomplete="off">
+                    </div>
+                    <div class="results">
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="right_container">
+                <button id="list">
+                    <a href="./myfav.html"><i class="fa-regular fa-heart"></i>
+                    </a>
+                </button>
+            </div>
+
+        </div>
+
+        <div id="movie-container">
+            <div class="movie-element"></div>
+        </div>
+
+    </section>
+
+
+    <!-- the javascript for the main page is linked here  -->
+    <script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+
+</html>

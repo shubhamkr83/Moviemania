@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    padding: 31px 0;
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+
+    button,
+    #home {
+        border: none;
+        background: none;
+        font-size: 2rem;
+
+        i {
+            color: red;
+            padding-left: 3rem;
+        }
+
+        :hover {
+            border: none;
+            background: none;
+            font-size: 2rem;
+            color: #ffff;
+        }
+    }
+
+    span {
+        margin-left: 5rem;
+
+    }
+
+    #clearall {
+        padding-right: 50px;
+
+        button {
+            border: none;
+            background: none;
+            font-size: 1.8rem;
+        }
+
+        #clear-whole-list {
+            cursor: pointer;
+            color: red;
+        }
+
+        :hover {
+            color: #ffff;
+        }
+
+
+    }
+}
+
+#list-container {
+    margin: auto;
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+
+
+    .movie-details {
+        margin: 10px;
+        border-radius: 20px;
+
+
+        .thumbnail {
+
+            #movieimg {
+                border-radius: 20px;
+                height: 400px;
+                width: 280px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                transition: all .3s linear;
+
+            }
+
+            :hover {
+                transform: scale(1.1);
+            }
+        }
+
+
+        #details {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 18px;
+
+
+            .title {
+                width: 200px;
+                margin-left: -3rem;
+                text-align: center;
+                overflow: hidden;
+                transition: all .2s linear;
+
+                a {
+                    font-size: 1.7rem;
+                    color: rgb(0, 0, 0);
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+
+            }
+
+            #removeicon {
+                font-size: 1.6rem;
+                color: red;
+                cursor: pointer;
+                transition: all .2s linear;
+            }
+
+            :hover {
+                transform: scale(1.1);
+            }
+
+        }
+    }
+
+}
