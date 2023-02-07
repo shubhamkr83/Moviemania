@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap');
 
-body {
+* {
     padding: 0px;
     margin: 0px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+}
 
+body {
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
 }
 
 #heading {
@@ -78,9 +80,11 @@ body {
     font-family: "Poppins", sans-serif;
 
 
+
     .movie-details {
         margin: 10px;
         border-radius: 20px;
+
 
 
         .thumbnail {
@@ -89,9 +93,7 @@ body {
                 border-radius: 20px;
                 height: 400px;
                 width: 280px;
-                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
                 transition: all .3s linear;
-
             }
 
             :hover {
@@ -116,7 +118,7 @@ body {
 
                 a {
                     font-size: 1.7rem;
-                    color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
                     font-weight: 500;
                     text-decoration: none;
                 }

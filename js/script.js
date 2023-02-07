@@ -1,14 +1,11 @@
-// this is the api key
 const APIKEY = 'api_key=862cadca8a1fa8797cdb1a91c519beb7';
-// this is the home url 
 const HOMEURL = `https://api.themoviedb.org/3/discover/movie?${APIKEY}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate`;
-// this is the image url 
 const IMAGEURL = 'https://image.tmdb.org/t/p/w500';
 
 // fetching elements index page 
 var container = document.getElementById('movie-container');
 var search = document.getElementById('searchMovie');
-var wrapperDiv = document.querySelector('.search-conten');
+var wrapperDiv = document.querySelector('.search-content');
 var resultsDiv = document.querySelector('.results');
 
 
