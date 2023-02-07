@@ -20,8 +20,15 @@ Functionality :-<br>
   <li>Navigate to favorite page from heart icon on navbar.</li>
 </ul> 
 
-![Home Page](https://user-images.githubusercontent.com/72254047/217007445-950861ca-4ab0-4460-b140-80482286228e.png)
+![Screenshot (265)](https://user-images.githubusercontent.com/72254047/217275350-18820d04-4b7d-4df1-b161-6b3c8478ae61.png)
+
 <hr>
+
+![Screenshot (266)](https://user-images.githubusercontent.com/72254047/217277200-17580e08-46de-46ca-bf2a-8f7b4fbd1d50.png)
+
+
+<hr>
+
 
 <h4>Favorite Page</h4>
 
@@ -33,7 +40,8 @@ Functionality :-<br>
   <li>Delete all movies favorite page by clear all button.</li>
 </ul> 
 
-![Favorite Page](https://user-images.githubusercontent.com/72254047/217012838-b69fe079-0b71-4608-82f2-35dcda6879ee.png)
+![Screenshot (267)](https://user-images.githubusercontent.com/72254047/217277132-6f8a19d9-6e59-4f79-9b42-f81956d51bf2.png)
+
 <hr>
 
 <h4>Single Movie Page</h4>
