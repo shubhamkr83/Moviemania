@@ -211,7 +211,7 @@ figure {
   border: 2px solid red;
 }
 #movie-container :hover .movie-decription {
-  top: 19.4rem;
+  top: 16.4rem;
 }
 
 /* responsiveness and media queries */

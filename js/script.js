@@ -99,9 +99,3 @@ search.addEventListener('keyup', function () {
     }
 })
 
-// disable the prev btn when the page is 1
-pBtn.disabled = true;
-function disablePBtn() {
-    if (pageNumber == 1) pBtn.disabled = true;
-    else pBtn.disabled = false;
-}
